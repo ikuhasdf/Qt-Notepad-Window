@@ -34,27 +34,30 @@
      <height>21</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menu_F">
+   <widget class="QMenu" name="menu_B">
     <property name="title">
      <string>文件(&amp;F)</string>
     </property>
-    <addaction name="newAction"/>
-    <addaction name="openAction"/>
-    <addaction name="saveAction"/>
+    <addaction name="newAction_2"/>
+    <addaction name="openAction_2"/>
+    <addaction name="saveAction_2"/>
    </widget>
-   <widget class="QMenu" name="menu_E">
+   <widget class="QMenu" name="menu_F">
     <property name="title">
-     <string>编辑(&amp;E)</string>
+     <string>字体(&amp;F)</string>
     </property>
+    <addaction name="songti"/>
+    <addaction name="msys"/>
    </widget>
-   <widget class="QMenu" name="menu_B">
+   <widget class="QMenu" name="menu">
     <property name="title">
-     <string>构建(&amp;B)</string>
+     <string>帮助(&amp;H)</string>
     </property>
+    <addaction name="About"/>
    </widget>
-   <addaction name="menu_F"/>
-   <addaction name="menu_E"/>
    <addaction name="menu_B"/>
+   <addaction name="menu_F"/>
+   <addaction name="menu"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="newAction">
@@ -69,7 +72,37 @@
   </action>
   <action name="saveAction">
    <property name="text">
-    <string>另存为(&amp;S)</string>
+    <string>保存(&amp;S)</string>
+   </property>
+  </action>
+  <action name="songti">
+   <property name="text">
+    <string>宋体</string>
+   </property>
+  </action>
+  <action name="msys">
+   <property name="text">
+    <string>微软雅黑</string>
+   </property>
+  </action>
+  <action name="newAction_2">
+   <property name="text">
+    <string>新建(&amp;N)</string>
+   </property>
+  </action>
+  <action name="openAction_2">
+   <property name="text">
+    <string>打开(&amp;O)</string>
+   </property>
+  </action>
+  <action name="saveAction_2">
+   <property name="text">
+    <string>保存(&amp;S)</string>
+   </property>
+  </action>
+  <action name="About">
+   <property name="text">
+    <string>关于记事本(&amp;A)</string>
    </property>
   </action>
  </widget>

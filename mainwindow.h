@@ -22,8 +22,11 @@ public:
 private:
     Ui::MainWindow *ui;
 private slots:
-    void newActionSlot();
-    void openActionSlot();
-    void saveActionSlot();
+    void newAction_2Slot();
+    void openAction_2Slot();
+    void saveAction_2Slot();
+    void songtiSlot();
+    void msysSlot();
+    void AboutSlot();
 };
 #endif // MAINWINDOW_H
